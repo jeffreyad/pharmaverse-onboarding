@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Pharmaverse for SAS Programmers"
+  description: "A structured onboarding path into R and open-source clinical data science"
+  favicon: "https://avatars.githubusercontent.com/u/71236560?s=200&v=4"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: steps.qmd
+        text: Getting Started
+      - href: hackathon.qmd
+        text: 2026 Hackathons
+      - href: resources.qmd
+        text: Resources
+    right:
+      - icon: github
+        href: https://github.com/pharmaverse
+        aria-label: GitHub
+
+  page-footer:
+    left: "Navitas Data Sciences"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.css
+    toc: true
+    toc-depth: 3
+    toc-title: "On this page"
+    code-fold: false
+    code-tools: false
+    smooth-scroll: true
+    anchor-sections: true

@@ -1,0 +1,146 @@
+---
+title: "2026 Pharmaverse Hackathons"
+description: "The official 2026 pharmaverse hackathon series — and how to prepare"
+---
+
+The pharmaverse council is running its first official hackathon series in 2026, explicitly designed to welcome first-time contributors. Resources are provided regardless of experience level — no prior open-source contribution experience is assumed.
+
+::: {.callout-note}
+## Source
+Details on this page are drawn from the pharmaverse OSS Pillar blog post: [pharmaverse.github.io/blog](https://pharmaverse.github.io/blog/posts/2026-03-06-pharmaverse-pillar/pharmaverse-pillar-oss.html)
+:::
+
+---
+
+## How Each Hackathon Works
+
+Each event follows a structured three-week format:
+
+```{=html}
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
+
+  <div style="background: #f4f8fb; border-top: 4px solid #2C6E8A; border-radius: 6px; padding: 1.2rem;">
+    <div style="font-size: 0.75rem; font-weight: 700; color: #2C6E8A; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.4rem;">Week 1</div>
+    <div style="font-weight: 700; font-size: 1rem; margin-bottom: 0.5rem; font-family: 'Bitter', Georgia, serif;">Preparation</div>
+    <div style="font-size: 0.88rem; color: #4a5568; line-height: 1.55;">A 60-minute kick-off introduces the package, a curated set of issues, and contributor guidelines. No prior knowledge expected.</div>
+  </div>
+
+  <div style="background: #f4f8fb; border-top: 4px solid #3FA88B; border-radius: 6px; padding: 1.2rem;">
+    <div style="font-size: 0.75rem; font-weight: 700; color: #3FA88B; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.4rem;">Week 2</div>
+    <div style="font-weight: 700; font-size: 1rem; margin-bottom: 0.5rem; font-family: 'Bitter', Georgia, serif;">Execution</div>
+    <div style="font-size: 0.88rem; color: #4a5568; line-height: 1.55;">A 3–4 hour hands-on hackathon event. Work on real issues with OS mentors and the package team present throughout.</div>
+  </div>
+
+  <div style="background: #f4f8fb; border-top: 4px solid #E8832A; border-radius: 6px; padding: 1.2rem;">
+    <div style="font-size: 0.75rem; font-weight: 700; color: #E8832A; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.4rem;">Week 3</div>
+    <div style="font-weight: 700; font-size: 1rem; margin-bottom: 0.5rem; font-family: 'Bitter', Georgia, serif;">Wrap-Up</div>
+    <div style="font-size: 0.88rem; color: #4a5568; line-height: 1.55;">Pull request review with feedback from the package team. A final office hour session closes out and celebrates contributions.</div>
+  </div>
+
+</div>
+```
+
+This format is well-suited for a first contribution: scoped, supported, and explicitly welcoming of newcomers.
+
+---
+
+## 2026 Hackathon Calendar
+
+```{=html}
+<div class="hackathon-table">
+<table>
+  <thead>
+    <tr>
+      <th>Package</th>
+      <th>Target Date</th>
+      <th>Timezone</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>{teal}</code> @ R/Medicine</td>
+      <td>April 23</td>
+      <td>PST</td>
+      <td><span class="badge-past">Past</span></td>
+    </tr>
+    <tr>
+      <td><code>{xportr}</code></td>
+      <td>May 21</td>
+      <td>EST</td>
+      <td>Sign-up TBA — coming up soon</td>
+    </tr>
+    <tr>
+      <td><code>{aNCA}</code></td>
+      <td>July 16</td>
+      <td>CET</td>
+      <td>NCA-focused; PK background helpful</td>
+    </tr>
+    <tr>
+      <td><code>{autoslider}</code> @ R/Pharma</td>
+      <td>Week of Sept 28</td>
+      <td>CST</td>
+      <td>Reporting automation</td>
+    </tr>
+    <tr class="highlight-row">
+      <td><code>{gtsummary}</code> &amp; <code>{cards/x}</code> @ R/Pharma</td>
+      <td>Week of Sept 28</td>
+      <td>PST</td>
+      <td><span class="badge-recommended">Recommended</span> Good entry point for SAS programmers</td>
+    </tr>
+    <tr>
+      <td><code>{logrx}</code></td>
+      <td>Early November</td>
+      <td>EST</td>
+      <td>Logging and compliance focus</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+```
+
+---
+
+## Recommended Target: `{gtsummary}` & `{cards/x}`
+
+For SAS programmers new to R, the **`{gtsummary}` and `{cards/x}` hackathon** (late September, R/Pharma conference week) is the strongest entry point. Here's why:
+
+- **Approachable package:** `{gtsummary}` produces summary tables — directly analogous to `PROC TABULATE` / `PROC REPORT` output work you already do
+- **Great documentation:** Among the best-documented packages in the ecosystem; getting started is genuinely easy
+- **Enough runway:** Late September gives several months to build R comfort before the event
+- **Supported entry:** The R/Pharma conference context means extra visibility, community energy, and mentoring support
+
+::: {.callout-tip}
+## If you have PK programming experience
+Consider the `{aNCA}` hackathon in July (CET timezone). It focuses on non-compartmental analysis — a domain where clinical SAS programmers with PK backgrounds can contribute meaningfully from the start.
+:::
+
+---
+
+## Preparing for Your First Hackathon
+
+You don't need to be a proficient R programmer to contribute. Here's what actually helps:
+
+**Before the kick-off (Week 1):**
+
+- Have a working R environment and GitHub account (Steps 1–2)
+- Have browsed the package documentation site at least once
+- Have read a few open issues on the package GitHub repo
+
+**At the kick-off:**
+
+- Show up with questions, not answers — the kick-off is designed to orient you
+- The package team will present curated issues rated by difficulty
+- Choose an issue that matches your comfort level; "Good First Issue" labels are your friend
+
+**During the hackathon (Week 2):**
+
+- Mentors are present throughout — don't hesitate to ask for help
+- A submitted pull request with honest effort is a success, regardless of whether it merges
+- Your SAS background gives you clinical context that pure R programmers may not have — that's valuable
+
+::: {.callout-note}
+## First-time contributor resources
+The pharmaverse blog has a dedicated post with tips for first-time contributors:  
+[Tips for First-Time Contributors →](https://pharmaverse.github.io/blog/posts/2024-03-11_tips_for__first_/tips_for__first__time__contributors.html)
+:::

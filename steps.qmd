@@ -1,0 +1,241 @@
+---
+title: "Getting Started"
+description: "Set up your R environment, create a GitHub account, and explore the pharmaverse ecosystem"
+---
+
+Work through these steps in order. Each one builds on the last. Allow yourself a few weeks — there's no need to rush.
+
+---
+
+```{=html}
+<div class="step-card">
+  <div class="step-number">Step 1</div>
+  <h3>Verify R Access</h3>
+```
+
+You need a working R environment before anything else. Choose one of the following options.
+
+#### Option A: Posit Cloud (Recommended for Getting Started)
+
+Posit Cloud runs R in your browser — no installation required. This is the fastest path to a working environment.
+
+1. Go to [posit.cloud](https://posit.cloud)
+2. Sign up for a free account
+3. Click **New Project → New RStudio Project**
+4. You're in — a full R/RStudio environment running in your browser
+
+The free tier is sufficient for learning and exploration. If you find yourself doing heavier work, a paid tier is available, but you won't need it to follow this guide.
+
+#### Option B: Local Installation
+
+If you prefer to work locally on your own machine:
+
+1. Download and install **R** from [cran.r-project.org](https://cran.r-project.org)
+2. Download and install **RStudio Desktop** (free) from [posit.co/download/rstudio-desktop](https://posit.co/download/rstudio-desktop/)
+
+#### Verify It Works
+
+Once you're in RStudio, paste this into the Console and press Enter:
+
+```r
+print("Hello, pharmaverse!")
+```
+
+If you see `[1] "Hello, pharmaverse!"` in the output, you're ready.
+
+::: {.callout-tip}
+## Coming from SAS
+The RStudio Console is roughly analogous to the SAS Program Editor + Log window combined. Output appears below your code. The Environment pane (top right) shows your active objects — think of it as a live PROC CONTENTS view of your workspace.
+:::
+
+```{=html}
+</div>
+```
+
+---
+
+```{=html}
+<div class="step-card">
+  <div class="step-number">Step 2</div>
+  <h3>Create a Personal GitHub Account</h3>
+```
+
+GitHub is the collaboration platform used across the entire pharmaverse ecosystem. You'll need an account to follow package discussions, browse issues, and eventually submit contributions.
+
+1. Go to [github.com](https://github.com) and click **Sign up**
+2. Use a **personal email address** — not a company address. This account travels with your career
+3. Choose a professional username (your name or initials works well)
+4. Complete email verification
+
+#### Getting Oriented on GitHub
+
+You don't need the command line yet. Start by exploring GitHub through your browser:
+
+- Browse the [admiral repository](https://github.com/pharmaverse/admiral) — notice the Issues tab, Pull Requests, and Discussions
+- Read a few open [Issues](https://github.com/pharmaverse/admiral/issues) to see how development conversations happen
+- Click the **Star** button on repos you want to follow — it's the GitHub equivalent of bookmarking
+
+::: {.callout-note}
+## Why GitHub matters here
+The pharmaverse is built on GitHub. Every package discussion, bug report, feature request, and code contribution happens there. Browsing issues — even just reading them — is one of the best ways to understand how a package works and what problems it's solving.
+:::
+
+```{=html}
+</div>
+```
+
+---
+
+```{=html}
+<div class="step-card">
+  <div class="step-number">Step 3</div>
+  <h3>Explore the Pharmaverse Examples Site</h3>
+```
+
+The pharmaverse examples site is the best single resource for seeing how packages work together in realistic clinical programming scenarios.
+
+**→ [pharmaverse.github.io/examples](https://pharmaverse.github.io/examples/)**
+
+#### Where to Start
+
+| Section | Why It's Useful |
+|---|---|
+| **ADSL** | Subject-level dataset — the ADaM foundation; most familiar starting point |
+| **ADAE** | Adverse events — familiar clinical territory from SAS work |
+| **TLG** | Tables, Listings, and Graphs — see both ARD-based and traditional approaches |
+| **Exposure-Response** | A newer framework: ADER, ADEE, ADES, ADTRR |
+
+#### Suggested Approach
+
+Pick one dataset section — ADSL is a good starting point — and read through it end-to-end. Don't worry about understanding every line of R code. Focus on the structure:
+
+- **Inputs:** SDTM domains you recognize (DM, EX, DS, etc.)
+- **Transformations:** `{admiral}` function calls doing the derivation work
+- **Outputs:** ADaM variables with the CDISC names you know
+
+The clinical logic will be familiar. The R syntax is what's new.
+
+```{=html}
+</div>
+```
+
+---
+
+```{=html}
+<div class="step-card">
+  <div class="step-number">Step 4</div>
+  <h3>Review Key Package Documentation Sites</h3>
+```
+
+The pharmaverse is a family of interoperable packages. Start with these two, which cover the two main areas of clinical R work.
+
+### `{admiral}` — ADaM Dataset Derivation
+
+**→ [pharmaverse.github.io/admiral](https://pharmaverse.github.io/admiral/)**
+
+`{admiral}` is the R package for building ADaM datasets. If you've written SAS macros for ADSL, ADAE, or BDS datasets, this is where the translation from SAS to R will feel most natural.
+
+Key pages to visit first:
+
+- **Get Started** — a guided introduction to the package and its design philosophy
+- **Reference** — function documentation (like a PROC CONTENTS for the package API)
+- **Articles** — deeper walkthroughs organized by dataset type
+- **Changelog** — shows how the package evolves; useful for understanding the development culture
+
+### `{gtsummary}` — Summary Tables
+
+**→ [danieldsjoberg.com/gtsummary](https://www.danieldsjoberg.com/gtsummary/)**
+
+`{gtsummary}` produces publication-ready summary and analysis tables. It's approachable, well-documented, and one of the packages featured in the 2026 Hackathon series.
+
+Key pages to visit:
+
+- **Get Started** — builds your first summary table in a few lines of code
+- **Gallery** — shows the full range of output types
+- **Articles** — covers clinical trial-specific patterns including `tbl_summary()` and `tbl_regression()`
+
+### Additional Packages Worth Knowing
+
+Once you're comfortable with `{admiral}` and `{gtsummary}`, explore the broader ecosystem:
+
+```{=html}
+<div class="pkg-grid">
+
+  <div class="pkg-card">
+    <div class="pkg-name">{xportr}</div>
+    <div class="pkg-desc">Write CDISC-compliant XPT transport files for regulatory submission. The R replacement for PROC COPY / XPORT.</div>
+    <a href="https://pharmaverse.github.io/xportr/" target="_blank">Documentation →</a>
+  </div>
+
+  <div class="pkg-card">
+    <div class="pkg-name">{metacore}</div>
+    <div class="pkg-desc">Work with ADaM and SDTM metadata specifications. Ingest specs from Excel, validate, and drive derivations.</div>
+    <a href="https://pharmaverse.github.io/metacore/" target="_blank">Documentation →</a>
+  </div>
+
+  <div class="pkg-card">
+    <div class="pkg-name">{teal}</div>
+    <div class="pkg-desc">Build interactive Shiny-based clinical data exploration applications. Used across multiple pharma companies.</div>
+    <a href="https://insightsengineering.github.io/teal/" target="_blank">Documentation →</a>
+  </div>
+
+  <div class="pkg-card">
+    <div class="pkg-name">{logrx}</div>
+    <div class="pkg-desc">GxP-compliant logging for clinical R programs. Captures session info, package versions, and execution details.</div>
+    <a href="https://pharmaverse.github.io/logrx/" target="_blank">Documentation →</a>
+  </div>
+
+  <div class="pkg-card">
+    <div class="pkg-name">{cards} / {cardx}</div>
+    <div class="pkg-desc">Analysis Results Data (ARD) framework. Structured output objects that feed cleanly into gtsummary and other reporting tools.</div>
+    <a href="https://insightsengineering.github.io/cards/" target="_blank">Documentation →</a>
+  </div>
+
+  <div class="pkg-card">
+    <div class="pkg-name">{metatools}</div>
+    <div class="pkg-desc">Utilities for working with metadata in the pharmaverse. Companion to metacore for building and validating specs.</div>
+    <a href="https://pharmaverse.github.io/metatools/" target="_blank">Documentation →</a>
+  </div>
+
+</div>
+```
+
+```{=html}
+</div>
+```
+
+---
+
+## Suggested Learning Sequence
+
+Use this timeline to build skills progressively. The targets are loose — adjust to your pace.
+
+```{=html}
+<div class="timeline">
+
+  <div class="timeline-item">
+    <div class="tl-period">Now – 4 weeks</div>
+    <div class="tl-title">Environment & Orientation</div>
+    <div class="tl-body">Complete Steps 1–3: R access, GitHub account, and an initial pass through the pharmaverse examples site. No coding required yet — just reading and exploring.</div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="tl-period">Weeks 4–8</div>
+    <div class="tl-title">First R Code</div>
+    <div class="tl-body">Work through the admiral Get Started guide. Try running one ADSL or ADAE example end-to-end on your own. Focus on understanding the function calls, not memorizing syntax.</div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="tl-period">Weeks 8–12</div>
+    <div class="tl-title">Output Generation</div>
+    <div class="tl-body">Work through the gtsummary tutorial and build one summary table. Browse open issues on the gtsummary GitHub repository — read the discussions to understand how contributors and maintainers interact.</div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="tl-period">Before the hackathon</div>
+    <div class="tl-title">Hackathon Preparation</div>
+    <div class="tl-body">Attend the gtsummary/cards kick-off session (Week 1 of the hackathon). Review the curated issues. Identify one issue you'd like to work on. Mentors will be available throughout.</div>
+  </div>
+
+</div>
+```

@@ -1,0 +1,73 @@
+---
+title: "Resources"
+description: "Additional learning resources for going deeper at your own pace"
+---
+
+A curated set of links for going deeper into R, pharmaverse, and clinical open-source contribution. This page is intentionally concise — a short list of genuinely useful resources beats a long list of everything.
+
+---
+
+## Getting Started with R
+
+| Resource | What It Is |
+|---|---|
+| [R for Data Science (2e)](https://r4ds.hadley.nz) | The standard introductory book — free online. Tidyverse-focused, well-written. |
+| [Posit Cheatsheets](https://posit.co/resources/cheatsheets/) | Quick reference cards for dplyr, ggplot2, and other core packages. Print the dplyr one. |
+| [RStudio IDE Cheatsheet](https://rstudio.github.io/cheatsheets/rstudio-ide.pdf) | Orient yourself in the RStudio interface quickly. |
+| [Tidyverse documentation](https://www.tidyverse.org) | The core family of R packages (dplyr, tidyr, purrr, etc.) that underpin most pharmaverse work. |
+
+::: {.callout-tip}
+## For SAS programmers specifically
+The [R for SAS Users](https://rstudio-conf-2020.github.io/r-for-sas-users/) workshop materials from posit::conf map common SAS patterns directly to R/tidyverse equivalents. Highly recommended as a bridge resource.
+:::
+
+---
+
+## Pharmaverse Ecosystem
+
+| Resource | What It Is |
+|---|---|
+| [pharmaverse.org](https://pharmaverse.org) | The ecosystem homepage — package listings, inclusion criteria, and governance |
+| [Pharmaverse Examples Site](https://pharmaverse.github.io/examples/) | End-to-end clinical programming workflows using the pharmaverse stack |
+| [Pharmaverse Blog](https://pharmaverse.github.io/blog) | Regular posts on packages, techniques, and community events |
+| [admiral package site](https://pharmaverse.github.io/admiral/) | ADaM derivation package — start here for dataset programming |
+| [admiral book](https://pharmaverse.github.io/admiraldev/articles/admiral_book.html) | Deeper technical documentation and best practices |
+| [gtsummary package site](https://www.danieldsjoberg.com/gtsummary/) | Summary table generation — the R equivalent of PROC TABULATE output |
+
+---
+
+## Open-Source Contribution
+
+| Resource | What It Is |
+|---|---|
+| [Tips for First-Time Contributors](https://pharmaverse.github.io/blog/posts/2024-03-11_tips_for__first_/tips_for__first__time__contributors.html) | Pharmaverse blog post written specifically for newcomers to OSS |
+| [GitHub Skills](https://skills.github.com) | Interactive, browser-based GitHub tutorials — no command line needed to start |
+| [Happy Git and GitHub for the useR](https://happygitwithr.com) | The definitive guide to using Git with R; Jenny Bryan's book, free online |
+| [2026 Hackathon Calendar](hackathon.qmd) | This site's hackathon page with the full event calendar and preparation guidance |
+
+---
+
+## Clinical R Standards & Context
+
+| Resource | What It Is |
+|---|---|
+| [R Submissions Working Group](https://rconsortium.github.io/submissions-wg/) | R Consortium pilot submissions to the FDA — shows R is regulatory-viable |
+| [CDISC ADaM Standards](https://www.cdisc.org/standards/foundational/adam) | Same CDISC standards you know, now increasingly implemented in R |
+| [PHUSE Working Group — Git in SP](https://phuse.global/Working_Groups) | PHUSE working group on Git workflows in statistical programming regulated environments |
+
+---
+
+## Community
+
+| Resource | What It Is |
+|---|---|
+| [R/Pharma Conference](https://rinpharma.com) | Annual conference focused on R in pharmaceutical data science |
+| [Posit Community Forum](https://community.rstudio.com) | Q&A forum for R and RStudio questions — very active and welcoming |
+| [pharmaverse GitHub Organization](https://github.com/pharmaverse) | All pharmaverse packages in one place — browse, star, and follow |
+
+---
+
+::: {.callout-note}
+## Questions?
+Reach out to your Navitas team lead for guidance on internal tooling, environment access, or which resources to prioritize based on your current project work.
+:::

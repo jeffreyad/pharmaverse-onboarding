@@ -1,0 +1,78 @@
+---
+title: "Pharmaverse for SAS Programmers"
+description: "A structured onboarding path into R and open-source clinical data science"
+toc: false
+---
+
+```{=html}
+<div class="hero-banner">
+  <h1>Pharmaverse for SAS Programmers</h1>
+  <p class="subtitle">
+    A structured path from SAS expertise into R and the open-source clinical data science ecosystem — including the 2026 Pharmaverse Hackathon series.
+  </p>
+  <div class="badge-row">
+    <span class="hero-badge">R / RStudio</span>
+    <span class="hero-badge">GitHub</span>
+    <span class="hero-badge">admiral</span>
+    <span class="hero-badge">gtsummary</span>
+    <span class="hero-badge">pharmaverse</span>
+  </div>
+</div>
+```
+
+## Who this is for
+
+This guide is written for experienced clinical SAS programmers who are new to R. You already understand the hard stuff: CDISC standards, ADaM and SDTM structures, clinical trial data, and the regulatory expectations that govern everything we build. 
+
+R is new syntax for familiar concepts. That context compresses the learning curve significantly — more than you might expect.
+
+The goal of this guide is a structured, low-pressure path toward:
+
+1. A working R environment and GitHub presence
+2. Familiarity with the pharmaverse package ecosystem
+3. Participation in the 2026 Pharmaverse Hackathon series
+
+---
+
+## What is pharmaverse?
+
+[Pharmaverse](https://pharmaverse.org) is a curated ecosystem of open-source R packages purpose-built for clinical reporting and regulatory submission. The packages are developed collaboratively across companies — Roche, GSK, Novartis, AstraZeneca, Pfizer, and many others — and maintained to CDISC standards.
+
+The key insight is that no single company needs to solve the same clinical programming problem alone. Pharmaverse packages handle SDTM-to-ADaM derivation, metadata management, output generation, transport file creation, and more — all interoperable, all openly maintained.
+
+::: {.callout-note}
+## The pharmaverse examples site
+The best single starting point is the [pharmaverse examples site](https://pharmaverse.github.io/examples/), which shows realistic end-to-end clinical programming workflows using the actual package ecosystem. Browse it early and often.
+:::
+
+---
+
+## Your SAS background is an asset
+
+A common misconception is that switching from SAS to R means starting over. It doesn't — at least not in clinical programming.
+
+| In SAS you know... | In pharmaverse R this maps to... |
+|---|---|
+| PROC SORT / DATA step merges | `dplyr::arrange()`, `left_join()` |
+| ADaM dataset structures | Same CDISC specs; `{admiral}` implements them |
+| Controlled terminology lookups | `{metacore}`, `{metatools}` |
+| PROC REPORT / PROC TABULATE | `{gtsummary}`, `{rtables}`, `{tfrmt}` |
+| XPT transport files | `{xportr}` |
+| Macro variables / %LET | R objects and functions |
+
+The CDISC logic you already carry — derivation rules, population flags, timing conventions — translates directly. You're learning a new instrument, not a new song.
+
+---
+
+## How to use this guide
+
+Use the navigation above to work through the steps at your own pace. The [Getting Started](steps.qmd) page walks through environment setup and key package sites. The [2026 Hackathons](hackathon.qmd) page covers the official pharmaverse hackathon series and how to prepare for it.
+
+There is no deadline pressure. The [Resources](resources.qmd) page collects additional links for going deeper at your own pace.
+
+```{=html}
+<div style="margin-top: 2.5rem; padding: 1.2rem 1.5rem; background: #EAF6F2; border-radius: 8px; border-left: 5px solid #3FA88B;">
+  <strong style="font-size:1rem;">Ready to start?</strong><br>
+  <span style="font-size:0.93rem;">Head to <a href="steps.qmd">Getting Started →</a> to set up R and create your GitHub account.</span>
+</div>
+```

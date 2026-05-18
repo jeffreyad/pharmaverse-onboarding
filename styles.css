@@ -1,0 +1,375 @@
+/*-- scss:defaults --*/
+
+/* Pharmaverse brand colors */
+$primary: #2C6E8A;
+$secondary: #3FA88B;
+$light: #F4F8FB;
+$dark: #1A2F3A;
+$accent: #E8832A;
+
+$font-family-sans-serif: "Source Sans 3", "Helvetica Neue", sans-serif;
+$headings-font-family: "Bitter", Georgia, serif;
+$code-font-family: "JetBrains Mono", "Fira Code", monospace;
+
+$body-bg: #FFFFFF;
+$body-color: #2A2A2A;
+$link-color: $primary;
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;600;700&family=Source+Sans+3:wght@300;400;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* ── Navbar ─────────────────────────────────────────────── */
+
+.navbar {
+  background-color: $dark !important;
+  border-bottom: 3px solid $secondary;
+  padding: 0.6rem 1rem;
+}
+
+.navbar-brand {
+  font-family: $headings-font-family;
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: #FFFFFF !important;
+  letter-spacing: 0.01em;
+}
+
+.navbar-nav .nav-link {
+  color: rgba(255,255,255,0.82) !important;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 0.4rem 0.85rem !important;
+  transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: $secondary !important;
+}
+
+/* ── Hero banner (index page) ────────────────────────────── */
+
+.hero-banner {
+  background: linear-gradient(135deg, $dark 0%, #1e4a5c 60%, #2C6E8A 100%);
+  color: white;
+  padding: 4rem 2rem 3.5rem;
+  margin: -1.5rem -1.5rem 2.5rem -1.5rem;
+  border-bottom: 4px solid $secondary;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-banner::before {
+  content: "";
+  position: absolute;
+  top: -40px; right: -40px;
+  width: 280px; height: 280px;
+  border-radius: 50%;
+  background: rgba(63,168,139,0.12);
+  pointer-events: none;
+}
+
+.hero-banner h1 {
+  font-family: $headings-font-family;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0.75rem;
+  color: white;
+  border: none;
+}
+
+.hero-banner .subtitle {
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: rgba(255,255,255,0.82);
+  max-width: 580px;
+  line-height: 1.6;
+}
+
+.hero-banner .badge-row {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.hero-badge {
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.25);
+  color: white;
+  padding: 0.3rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* ── Headings ─────────────────────────────────────────────── */
+
+h1, h2, h3, h4 {
+  font-family: $headings-font-family;
+  font-weight: 700;
+  color: $dark;
+}
+
+h2 {
+  font-size: 1.55rem;
+  margin-top: 2.5rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid $secondary;
+  color: $primary;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: $dark;
+  margin-top: 1.6rem;
+}
+
+/* ── Step cards ───────────────────────────────────────────── */
+
+.step-card {
+  background: $light;
+  border-left: 5px solid $primary;
+  border-radius: 0 8px 8px 0;
+  padding: 1.4rem 1.6rem;
+  margin: 1.5rem 0;
+  position: relative;
+}
+
+.step-card .step-number {
+  position: absolute;
+  top: -14px;
+  left: -5px;
+  background: $primary;
+  color: white;
+  font-family: $headings-font-family;
+  font-weight: 700;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.7rem;
+  border-radius: 0 4px 4px 0;
+}
+
+.step-card h3 {
+  margin-top: 0.8rem;
+  font-size: 1.15rem;
+  color: $primary;
+}
+
+/* ── Callout overrides ───────────────────────────────────── */
+
+.callout-tip {
+  border-left-color: $secondary !important;
+}
+
+.callout-note {
+  border-left-color: $primary !important;
+}
+
+.callout-important {
+  border-left-color: $accent !important;
+}
+
+/* ── Package cards ────────────────────────────────────────── */
+
+.pkg-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.1rem;
+  margin: 1.5rem 0;
+}
+
+.pkg-card {
+  background: white;
+  border: 1px solid #d8e6ef;
+  border-top: 4px solid $primary;
+  border-radius: 6px;
+  padding: 1.2rem;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.pkg-card:hover {
+  box-shadow: 0 4px 16px rgba(44,110,138,0.15);
+  transform: translateY(-2px);
+}
+
+.pkg-card .pkg-name {
+  font-family: $code-font-family;
+  font-weight: 700;
+  font-size: 1rem;
+  color: $primary;
+  margin-bottom: 0.35rem;
+}
+
+.pkg-card .pkg-desc {
+  font-size: 0.87rem;
+  color: #4a5568;
+  line-height: 1.5;
+  margin-bottom: 0.7rem;
+}
+
+.pkg-card a {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: $secondary;
+  text-decoration: none;
+}
+
+.pkg-card a:hover { text-decoration: underline; }
+
+/* ── Hackathon timeline ───────────────────────────────────── */
+
+.hackathon-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+.hackathon-table th {
+  background: $dark;
+  color: white;
+  padding: 0.7rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.hackathon-table td {
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid #e2ecf2;
+  vertical-align: top;
+}
+
+.hackathon-table tr:last-child td { border-bottom: none; }
+.hackathon-table tr:hover td { background: $light; }
+
+.hackathon-table .highlight-row td {
+  background: #EAF6F2;
+  font-weight: 600;
+}
+
+.badge-recommended {
+  background: $secondary;
+  color: white;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
+  border-radius: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-left: 0.4rem;
+}
+
+.badge-past {
+  background: #b0b8c1;
+  color: white;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
+  border-radius: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-left: 0.4rem;
+}
+
+/* ── Timeline (learning path) ────────────────────────────── */
+
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+  margin: 2rem 0;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 0.55rem;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(to bottom, $primary, $secondary);
+  border-radius: 2px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 1.8rem;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -1.55rem;
+  top: 0.3rem;
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  background: white;
+  border: 3px solid $primary;
+}
+
+.timeline-item .tl-period {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: $secondary;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.2rem;
+}
+
+.timeline-item .tl-title {
+  font-family: $headings-font-family;
+  font-weight: 700;
+  font-size: 1rem;
+  color: $dark;
+  margin-bottom: 0.3rem;
+}
+
+.timeline-item .tl-body {
+  font-size: 0.9rem;
+  color: #4a5568;
+  line-height: 1.55;
+}
+
+/* ── Code blocks ─────────────────────────────────────────── */
+
+pre.sourceCode {
+  background: #f0f5f8 !important;
+  border: 1px solid #d0e2ec;
+  border-left: 4px solid $secondary;
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+
+code {
+  color: $primary;
+  background: #edf4f8;
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+  font-size: 0.88em;
+}
+
+/* ── Footer ──────────────────────────────────────────────── */
+
+.nav-footer {
+  background: $dark;
+  color: rgba(255,255,255,0.7);
+  font-size: 0.85rem;
+  border-top: 3px solid $secondary;
+  padding: 0.8rem 1.5rem;
+}
+
+.nav-footer a { color: $secondary; }
+
+/* ── Responsive ──────────────────────────────────────────── */
+
+@media (max-width: 768px) {
+  .hero-banner h1 { font-size: 1.8rem; }
+  .pkg-grid { grid-template-columns: 1fr; }
+}
