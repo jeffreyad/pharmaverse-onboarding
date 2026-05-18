@@ -31,7 +31,7 @@ The [R for SAS Users](https://rstudio-conf-2020.github.io/r-for-sas-users/) work
 | [Pharmaverse Examples Site](https://pharmaverse.github.io/examples/) | End-to-end clinical programming workflows using the pharmaverse stack |
 | [Pharmaverse Blog](https://pharmaverse.github.io/blog) | Regular posts on packages, techniques, and community events |
 | [admiral package site](https://pharmaverse.github.io/admiral/) | ADaM derivation package — start here for dataset programming |
-| [admiral book](https://pharmaverse.github.io/admiraldev/articles/admiral_book.html) | Deeper technical documentation and best practices |
+| [admiral articles](https://pharmaverse.github.io/admiral/articles/) | Deeper walkthroughs organized by dataset type — ADSL, ADAE, BDS, and more |
 | [gtsummary package site](https://www.danieldsjoberg.com/gtsummary/) | Summary table generation — the R equivalent of PROC TABULATE output |
 
 ---
@@ -62,6 +62,8 @@ The [R for SAS Users](https://rstudio-conf-2020.github.io/r-for-sas-users/) work
 | Resource | What It Is |
 |---|---|
 | [R/Pharma Conference](https://rinpharma.com) | Annual conference focused on R in pharmaceutical data science |
+| [R/Pharma Slack](https://join.slack.com/t/rinpharma/shared_invite/zt-2w1qle52j-9ueXECvDWYPFIiMz0V5QSQ) | Active Slack community for R in pharma — good place to ask questions and follow pharmaverse discussions |
+| [pharmaverse Slack](https://pharmaverse.slack.com) | Pharmaverse-specific Slack workspace used by package maintainers and contributors |
 | [Posit Community Forum](https://community.rstudio.com) | Q&A forum for R and RStudio questions — very active and welcoming |
 | [pharmaverse GitHub Organization](https://github.com/pharmaverse) | All pharmaverse packages in one place — browse, star, and follow |
 
