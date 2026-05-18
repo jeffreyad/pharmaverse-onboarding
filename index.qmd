@@ -6,7 +6,7 @@ toc: false
 
 ```{=html}
 <div class="hero-banner">
-  <h1>Pharmaverse for SAS Programmers</h1>
+  <h1>pharmaverse onboarding</h1>
   <p class="subtitle">
     A structured path from SAS expertise into R and the open-source clinical data science ecosystem — including the 2026 Pharmaverse Hackathon series.
   </p>
@@ -15,6 +15,7 @@ toc: false
     <a class="hero-badge" href="https://github.com" target="_blank">GitHub</a>
     <a class="hero-badge" href="https://pharmaverse.github.io/admiral/" target="_blank">admiral</a>
     <a class="hero-badge" href="https://www.danieldsjoberg.com/gtsummary/" target="_blank">gtsummary</a>
+    <a class="hero-badge" href="https://https://pharmaverse.github.io/examples/" target="_blank">pharmaverse examples</a>
     <a class="hero-badge" href="https://pharmaverse.org" target="_blank">pharmaverse</a>
   </div>
 </div>
