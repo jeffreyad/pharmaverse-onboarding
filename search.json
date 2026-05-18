@@ -18,21 +18,21 @@
     "href": "hackathon.html#hackathon-calendar",
     "title": "2026 Pharmaverse Hackathons",
     "section": "2026 Hackathon Calendar",
-    "text": "2026 Hackathon Calendar\n\n\n\n  \n    \n      Package\n      Target Date\n      Timezone\n      Notes\n    \n  \n  \n    \n      {teal} @ R/Medicine\n      April 23\n      PST\n      Past\n    \n    \n      {xportr}\n      May 21\n      EST\n      Sign-up TBA — coming up soon\n    \n    \n      {aNCA}\n      July 16\n      CET\n      NCA-focused; PK background helpful\n    \n    \n      {autoslider} @ R/Pharma\n      Week of Sept 28\n      CST\n      Reporting automation\n    \n    \n      {gtsummary} & {cards/x} @ R/Pharma\n      Week of Sept 28\n      PST\n      Recommended Good entry point for SAS programmers\n    \n    \n      {logrx}\n      Early November\n      EST\n      Logging and compliance focus"
+    "text": "2026 Hackathon Calendar\n\n\n\n\n\nPackage\nTarget Date\nTimezone\nNotes\n\n\n\n\n{teal} @ R/Medicine\nApril 23\nPST\nPast\n\n\n{xportr}\nMay 21\nEST\nSign-up TBA — coming up soon\n\n\n{aNCA}\nJuly 16\nCET\nNCA-focused; PK background helpful\n\n\n{autoslider} @ R/Pharma\nWeek of Sept 28\nCST\nReporting automation\n\n\n{gtsummary} & {cards/x} @ R/Pharma\nWeek of Sept 28\nPST\nRecommended Good entry point for SAS programmers\n\n\n{logrx}\nEarly November\nEST\nLogging and compliance focus"
   },
   {
     "objectID": "hackathon.html#recommended-target-gtsummary-cardsx",
     "href": "hackathon.html#recommended-target-gtsummary-cardsx",
     "title": "2026 Pharmaverse Hackathons",
     "section": "Recommended Target: {gtsummary} & {cards/x}",
-    "text": "Recommended Target: {gtsummary} & {cards/x}\nFor SAS programmers new to R, the {gtsummary} and {cards/x} hackathon (late September, R/Pharma conference week) is the strongest entry point. Here’s why:\n\nApproachable package: {gtsummary} produces summary tables — directly analogous to PROC TABULATE / PROC REPORT output work you already do\nGreat documentation: Among the best-documented packages in the ecosystem; getting started is genuinely easy\nEnough runway: Late September gives several months to build R comfort before the event\nSupported entry: The R/Pharma conference context means extra visibility, community energy, and mentoring support\n\n\n\n\n\n\n\nIf you have PK programming experience\n\n\n\nConsider the {aNCA} hackathon in July (CET timezone). It focuses on non-compartmental analysis — a domain where clinical SAS programmers with PK backgrounds can contribute meaningfully from the start."
+    "text": "Recommended Target: {gtsummary} & {cards/x}\nFor SAS programmers new to R, the {gtsummary} and {cards/x} hackathon (late September, R/Pharma conference week) is the strongest entry point. Here’s why:\n\nApproachable package: {gtsummary} produces summary tables — directly analogous to PROC TABULATE / PROC REPORT output work you already do\nGreat documentation: Among the best-documented packages in the ecosystem; getting started is genuinely easy\nEnough runway: Late September gives several months to build R comfort before the event\nSupported entry: The R/Pharma conference context means extra visibility, community energy, and mentoring support\n\n\n\n\n\n\n\nTipIf you have PK programming experience\n\n\n\nConsider the {aNCA} hackathon in July (CET timezone). It focuses on non-compartmental analysis — a domain where clinical SAS programmers with PK backgrounds can contribute meaningfully from the start."
   },
   {
     "objectID": "hackathon.html#preparing-for-your-first-hackathon",
     "href": "hackathon.html#preparing-for-your-first-hackathon",
     "title": "2026 Pharmaverse Hackathons",
     "section": "Preparing for Your First Hackathon",
-    "text": "Preparing for Your First Hackathon\nYou don’t need to be a proficient R programmer to contribute. Here’s what actually helps:\nBefore the kick-off (Week 1):\n\nHave a working R environment and GitHub account (Steps 1–2)\nHave browsed the package documentation site at least once\nHave read a few open issues on the package GitHub repo\n\nAt the kick-off:\n\nShow up with questions, not answers — the kick-off is designed to orient you\nThe package team will present curated issues rated by difficulty\nChoose an issue that matches your comfort level; “Good First Issue” labels are your friend\n\nDuring the hackathon (Week 2):\n\nMentors are present throughout — don’t hesitate to ask for help\nA submitted pull request with honest effort is a success, regardless of whether it merges\nYour SAS background gives you clinical context that pure R programmers may not have — that’s valuable\n\n\n\n\n\n\n\nFirst-time contributor resources\n\n\n\nThe pharmaverse blog has a dedicated post with tips for first-time contributors:\nTips for First-Time Contributors →"
+    "text": "Preparing for Your First Hackathon\nYou don’t need to be a proficient R programmer to contribute. Here’s what actually helps:\nBefore the kick-off (Week 1):\n\nHave a working R environment and GitHub account (Steps 1–2)\nHave browsed the package documentation site at least once\nHave read a few open issues on the package GitHub repo\n\nAt the kick-off:\n\nShow up with questions, not answers — the kick-off is designed to orient you\nThe package team will present curated issues rated by difficulty\nChoose an issue that matches your comfort level; “Good First Issue” labels are your friend\n\nDuring the hackathon (Week 2):\n\nMentors are present throughout — don’t hesitate to ask for help\nA submitted pull request with honest effort is a success, regardless of whether it merges\nYour SAS background gives you clinical context that pure R programmers may not have — that’s valuable\n\n\n\n\n\n\n\nNoteFirst-time contributor resources\n\n\n\nThe pharmaverse blog has a dedicated post with tips for first-time contributors:\nTips for First-Time Contributors →"
   },
   {
     "objectID": "index.html",
@@ -53,7 +53,7 @@
     "href": "index.html#what-is-pharmaverse",
     "title": "Pharmaverse for SAS Programmers",
     "section": "What is pharmaverse?",
-    "text": "What is pharmaverse?\nPharmaverse is a curated ecosystem of open-source R packages purpose-built for clinical reporting and regulatory submission. The packages are developed collaboratively across companies — Roche, GSK, Novartis, AstraZeneca, Pfizer, and many others — and maintained to CDISC standards.\nThe key insight is that no single company needs to solve the same clinical programming problem alone. Pharmaverse packages handle SDTM-to-ADaM derivation, metadata management, output generation, transport file creation, and more — all interoperable, all openly maintained.\n\n\n\n\n\n\nThe pharmaverse examples site\n\n\n\nThe best single starting point is the pharmaverse examples site, which shows realistic end-to-end clinical programming workflows using the actual package ecosystem. Browse it early and often."
+    "text": "What is pharmaverse?\nPharmaverse is a curated ecosystem of open-source R packages purpose-built for clinical reporting and regulatory submission. The packages are developed collaboratively across companies — Roche, GSK, Novartis, AstraZeneca, Pfizer, and many others — and maintained to CDISC standards.\nThe key insight is that no single company needs to solve the same clinical programming problem alone. Pharmaverse packages handle SDTM-to-ADaM derivation, metadata management, output generation, transport file creation, and more — all interoperable, all openly maintained.\n\n\n\n\n\n\nNoteThe pharmaverse examples site\n\n\n\nThe best single starting point is the pharmaverse examples site, which shows realistic end-to-end clinical programming workflows using the actual package ecosystem. Browse it early and often."
   },
   {
     "objectID": "index.html#your-sas-background-is-an-asset",
@@ -70,6 +70,20 @@
     "text": "How to use this guide\nUse the navigation above to work through the steps at your own pace. The Getting Started page walks through environment setup and key package sites. The 2026 Hackathons page covers the official pharmaverse hackathon series and how to prepare for it.\nThere is no deadline pressure. The Resources page collects additional links for going deeper at your own pace.\n\n  Ready to start?\n  Head to Getting Started → to set up R and create your GitHub account."
   },
   {
+    "objectID": "steps.html",
+    "href": "steps.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "Work through these steps in order. Each one builds on the last. Allow yourself a few weeks — there’s no need to rush."
+  },
+  {
+    "objectID": "steps.html#suggested-learning-sequence",
+    "href": "steps.html#suggested-learning-sequence",
+    "title": "Getting Started",
+    "section": "Suggested Learning Sequence",
+    "text": "Suggested Learning Sequence\nUse this timeline to build skills progressively. The targets are loose — adjust to your pace.\n\n\n  \n    Now – 4 weeks\n    Environment & Orientation\n    Complete Steps 1–3: R access, GitHub account, and an initial pass through the pharmaverse examples site. No coding required yet — just reading and exploring.\n  \n\n  \n    Weeks 4–8\n    First R Code\n    Work through the admiral Get Started guide. Try running one ADSL or ADAE example end-to-end on your own. Focus on understanding the function calls, not memorizing syntax.\n  \n\n  \n    Weeks 8–12\n    Output Generation\n    Work through the gtsummary tutorial and build one summary table. Browse open issues on the gtsummary GitHub repository — read the discussions to understand how contributors and maintainers interact.\n  \n\n  \n    Before the hackathon\n    Hackathon Preparation\n    Attend the gtsummary/cards kick-off session (Week 1 of the hackathon). Review the curated issues. Identify one issue you'd like to work on. Mentors will be available throughout."
+  },
+  {
     "objectID": "resources.html",
     "href": "resources.html",
     "title": "Resources",
@@ -81,7 +95,7 @@
     "href": "resources.html#getting-started-with-r",
     "title": "Resources",
     "section": "Getting Started with R",
-    "text": "Getting Started with R\n\n\n\nResource\nWhat It Is\n\n\n\n\nR for Data Science (2e)\nThe standard introductory book — free online. Tidyverse-focused, well-written.\n\n\nPosit Cheatsheets\nQuick reference cards for dplyr, ggplot2, and other core packages. Print the dplyr one.\n\n\nRStudio IDE Cheatsheet\nOrient yourself in the RStudio interface quickly.\n\n\nTidyverse documentation\nThe core family of R packages (dplyr, tidyr, purrr, etc.) that underpin most pharmaverse work.\n\n\n\n\n\n\n\n\n\nFor SAS programmers specifically\n\n\n\nThe R for SAS Users workshop materials from posit::conf map common SAS patterns directly to R/tidyverse equivalents. Highly recommended as a bridge resource."
+    "text": "Getting Started with R\n\n\n\nResource\nWhat It Is\n\n\n\n\nR for Data Science (2e)\nThe standard introductory book — free online. Tidyverse-focused, well-written.\n\n\nPosit Cheatsheets\nQuick reference cards for dplyr, ggplot2, and other core packages. Print the dplyr one.\n\n\nRStudio IDE Cheatsheet\nOrient yourself in the RStudio interface quickly.\n\n\nTidyverse documentation\nThe core family of R packages (dplyr, tidyr, purrr, etc.) that underpin most pharmaverse work.\n\n\n\n\n\n\n\n\n\nTipFor SAS programmers specifically\n\n\n\nThe R for SAS Users workshop materials from posit::conf map common SAS patterns directly to R/tidyverse equivalents. Highly recommended as a bridge resource."
   },
   {
     "objectID": "resources.html#pharmaverse-ecosystem",
@@ -109,20 +123,6 @@
     "href": "resources.html#community",
     "title": "Resources",
     "section": "Community",
-    "text": "Community\n\n\n\nResource\nWhat It Is\n\n\n\n\nR/Pharma Conference\nAnnual conference focused on R in pharmaceutical data science\n\n\nPosit Community Forum\nQ&A forum for R and RStudio questions — very active and welcoming\n\n\npharmaverse GitHub Organization\nAll pharmaverse packages in one place — browse, star, and follow\n\n\n\n\n\n\n\n\n\n\nQuestions?\n\n\n\nReach out to your Navitas team lead for guidance on internal tooling, environment access, or which resources to prioritize based on your current project work."
-  },
-  {
-    "objectID": "steps.html",
-    "href": "steps.html",
-    "title": "Getting Started",
-    "section": "",
-    "text": "Work through these steps in order. Each one builds on the last. Allow yourself a few weeks — there’s no need to rush."
-  },
-  {
-    "objectID": "steps.html#suggested-learning-sequence",
-    "href": "steps.html#suggested-learning-sequence",
-    "title": "Getting Started",
-    "section": "Suggested Learning Sequence",
-    "text": "Suggested Learning Sequence\nUse this timeline to build skills progressively. The targets are loose — adjust to your pace.\n\n\n\n  \n    Now – 4 weeks\n    Environment & Orientation\n    Complete Steps 1–3: R access, GitHub account, and an initial pass through the pharmaverse examples site. No coding required yet — just reading and exploring.\n  \n\n  \n    Weeks 4–8\n    First R Code\n    Work through the admiral Get Started guide. Try running one ADSL or ADAE example end-to-end on your own. Focus on understanding the function calls, not memorizing syntax.\n  \n\n  \n    Weeks 8–12\n    Output Generation\n    Work through the gtsummary tutorial and build one summary table. Browse open issues on the gtsummary GitHub repository — read the discussions to understand how contributors and maintainers interact.\n  \n\n  \n    Before the hackathon\n    Hackathon Preparation\n    Attend the gtsummary/cards kick-off session (Week 1 of the hackathon). Review the curated issues. Identify one issue you'd like to work on. Mentors will be available throughout."
+    "text": "Community\n\n\n\nResource\nWhat It Is\n\n\n\n\nR/Pharma Conference\nAnnual conference focused on R in pharmaceutical data science\n\n\nPosit Community Forum\nQ&A forum for R and RStudio questions — very active and welcoming\n\n\npharmaverse GitHub Organization\nAll pharmaverse packages in one place — browse, star, and follow\n\n\n\n\n\n\n\n\n\n\nNoteQuestions?\n\n\n\nReach out to your Navitas team lead for guidance on internal tooling, environment access, or which resources to prioritize based on your current project work."
   }
 ]
