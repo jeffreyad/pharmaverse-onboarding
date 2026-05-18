@@ -11,11 +11,11 @@ toc: false
     A structured path from SAS expertise into R and the open-source clinical data science ecosystem — including the 2026 Pharmaverse Hackathon series.
   </p>
   <div class="badge-row">
-    <span class="hero-badge">R / RStudio</span>
-    <span class="hero-badge">GitHub</span>
-    <span class="hero-badge">admiral</span>
-    <span class="hero-badge">gtsummary</span>
-    <span class="hero-badge">pharmaverse</span>
+    <a class="hero-badge" href="https://posit.co/download/rstudio-desktop/" target="_blank">R / RStudio</a>
+    <a class="hero-badge" href="https://github.com" target="_blank">GitHub</a>
+    <a class="hero-badge" href="https://pharmaverse.github.io/admiral/" target="_blank">admiral</a>
+    <a class="hero-badge" href="https://www.danieldsjoberg.com/gtsummary/" target="_blank">gtsummary</a>
+    <a class="hero-badge" href="https://pharmaverse.org" target="_blank">pharmaverse</a>
   </div>
 </div>
 ```
