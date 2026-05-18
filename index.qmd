@@ -1,5 +1,5 @@
 ---
-title: "Pharmaverse for SAS Programmers"
+title: "Pharmaverse Onboarding"
 description: "A structured onboarding path into R and open-source clinical data science"
 toc: false
 ---
@@ -15,7 +15,7 @@ toc: false
     <a class="hero-badge" href="https://github.com" target="_blank">GitHub</a>
     <a class="hero-badge" href="https://pharmaverse.github.io/admiral/" target="_blank">admiral</a>
     <a class="hero-badge" href="https://www.danieldsjoberg.com/gtsummary/" target="_blank">gtsummary</a>
-    <a class="hero-badge" href="https://https://pharmaverse.github.io/examples/" target="_blank">pharmaverse examples</a>
+    <a class="hero-badge" href="https://pharmaverse.github.io/examples/" target="_blank">pharmaverse examples</a>
     <a class="hero-badge" href="https://pharmaverse.org" target="_blank">pharmaverse</a>
   </div>
 </div>
@@ -54,12 +54,13 @@ A common misconception is that switching from SAS to R means starting over. It d
 
 | In SAS you know... | In pharmaverse R this maps to... |
 |---|---|
-| PROC SORT / DATA step merges | `dplyr::arrange()`, `left_join()` |
-| ADaM dataset structures | Same CDISC specs; `{admiral}` implements them |
-| Controlled terminology lookups | `{metacore}`, `{metatools}` |
+| PROC SORT / DATA step merges | `derive_vars_merged()`, `derive_vars_joined()` in `{admiral}` |
+| ADaM ADSL population flags | `derive_var_extreme_flag()`, `derive_var_merged_exist_flag()` |
+| ADaM analysis visit/timing | `derive_vars_dt()`, `derive_vars_dtm()`, `derive_var_ady()` |
+| Controlled terminology lookups | `ct_map()` in `{admiralvaccine}`; `{metacore}` + `{metatools}` |
 | PROC REPORT / PROC TABULATE | `{gtsummary}`, `{rtables}`, `{tfrmt}` |
-| XPT transport files | `{xportr}` |
-| Macro variables / %LET | R objects and functions |
+| XPT transport files | `xportr_write()`, `xportr_label()` in `{xportr}` |
+| Macro variables / %LET | R objects; `{metacore}` for spec-driven metadata |
 
 The CDISC logic you already carry — derivation rules, population flags, timing conventions — translates directly. You're learning a new instrument, not a new song.
 
