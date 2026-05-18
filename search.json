@@ -18,7 +18,7 @@
     "href": "hackathon.html#hackathon-calendar",
     "title": "2026 Pharmaverse Hackathons",
     "section": "2026 Hackathon Calendar",
-    "text": "2026 Hackathon Calendar\n\n\n\n\n\nPackage\nTarget Date\nTimezone\nNotes\n\n\n\n\n{teal} @ R/Medicine\nApril 23\nPST\nPast\n\n\n{xportr}\nMay 21\nEST\nSign-up TBA — coming up soon\n\n\n{aNCA}\nJuly 16\nCET\nNCA-focused; PK background helpful\n\n\n{autoslider} @ R/Pharma\nWeek of Sept 28\nCST\nReporting automation\n\n\n{gtsummary} & {cards/x} @ R/Pharma\nWeek of Sept 28\nPST\nRecommended Good entry point for SAS programmers\n\n\n{logrx}\nEarly November\nEST\nLogging and compliance focus"
+    "text": "2026 Hackathon Calendar\n\n\n\n\n\nPackage\nTarget Date\nTimezone\nNotes\n\n\n\n\n{teal} @ R/Medicine\nApril 23\nPST\nPast\n\n\n{xportr}\nMay 21\nEDT\nPast\n\n\n{aNCA}\nJuly 16\nCET\nNCA-focused; PK background helpful\n\n\n{autoslider} @ R/Pharma\nWeek of Sept 28\nCST\nReporting automation\n\n\n{gtsummary} & {cards/x} @ R/Pharma\nWeek of Sept 28\nPST\nRecommended Good entry point for SAS programmers\n\n\n{logrx}\nEarly November\nEST\nLogging and compliance focus"
   },
   {
     "objectID": "hackathon.html#recommended-target-gtsummary-cardsx",
@@ -102,7 +102,7 @@
     "href": "resources.html#pharmaverse-ecosystem",
     "title": "Resources",
     "section": "Pharmaverse Ecosystem",
-    "text": "Pharmaverse Ecosystem\n\n\n\nResource\nWhat It Is\n\n\n\n\npharmaverse.org\nThe ecosystem homepage — package listings, inclusion criteria, and governance\n\n\nPharmaverse Examples Site\nEnd-to-end clinical programming workflows using the pharmaverse stack\n\n\nPharmaverse Blog\nRegular posts on packages, techniques, and community events\n\n\nadmiral package site\nADaM derivation package — start here for dataset programming\n\n\nadmiral book\nDeeper technical documentation and best practices\n\n\ngtsummary package site\nSummary table generation — the R equivalent of PROC TABULATE output"
+    "text": "Pharmaverse Ecosystem\n\n\n\nResource\nWhat It Is\n\n\n\n\npharmaverse.org\nThe ecosystem homepage — package listings, inclusion criteria, and governance\n\n\nPharmaverse Examples Site\nEnd-to-end clinical programming workflows using the pharmaverse stack\n\n\nPharmaverse Blog\nRegular posts on packages, techniques, and community events\n\n\nadmiral package site\nADaM derivation package — start here for dataset programming\n\n\nadmiral articles\nDeeper walkthroughs organized by dataset type — ADSL, ADAE, BDS, and more\n\n\ngtsummary package site\nSummary table generation — the R equivalent of PROC TABULATE output"
   },
   {
     "objectID": "resources.html#open-source-contribution",
@@ -123,6 +123,6 @@
     "href": "resources.html#community",
     "title": "Resources",
     "section": "Community",
-    "text": "Community\n\n\n\nResource\nWhat It Is\n\n\n\n\nR/Pharma Conference\nAnnual conference focused on R in pharmaceutical data science\n\n\nPosit Community Forum\nQ&A forum for R and RStudio questions — very active and welcoming\n\n\npharmaverse GitHub Organization\nAll pharmaverse packages in one place — browse, star, and follow\n\n\n\n\n\n\n\n\n\n\nNoteQuestions?\n\n\n\nReach out to your Navitas team lead for guidance on internal tooling, environment access, or which resources to prioritize based on your current project work."
+    "text": "Community\n\n\n\nResource\nWhat It Is\n\n\n\n\nR/Pharma Conference\nAnnual conference focused on R in pharmaceutical data science\n\n\nR/Pharma Slack\nActive Slack community for R in pharma — good place to ask questions and follow pharmaverse discussions\n\n\npharmaverse Slack\nPharmaverse-specific Slack workspace used by package maintainers and contributors\n\n\nPosit Community Forum\nQ&A forum for R and RStudio questions — very active and welcoming\n\n\npharmaverse GitHub Organization\nAll pharmaverse packages in one place — browse, star, and follow\n\n\n\n\n\n\n\n\n\n\nNoteQuestions?\n\n\n\nReach out to your Navitas team lead for guidance on internal tooling, environment access, or which resources to prioritize based on your current project work."
   }
 ]
