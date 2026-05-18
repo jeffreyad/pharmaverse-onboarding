@@ -8,7 +8,7 @@
 
 <meta name="description" content="A structured onboarding path into R and open-source clinical data science">
 
-<title>Pharmaverse for SAS Programmers – Pharmaverse Onboarding</title>
+<title>Pharmaverse Onboarding</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -134,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Pharmaverse for SAS Programmers</h1>
+<h1 class="title">Pharmaverse Onboarding</h1>
 </div>
 
 <div>
@@ -166,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
     <a class="hero-badge" href="https://github.com" target="_blank">GitHub</a>
     <a class="hero-badge" href="https://pharmaverse.github.io/admiral/" target="_blank">admiral</a>
     <a class="hero-badge" href="https://www.danieldsjoberg.com/gtsummary/" target="_blank">gtsummary</a>
-    <a class="hero-badge" href="https://https://pharmaverse.github.io/examples/" target="_blank">pharmaverse examples</a>
+    <a class="hero-badge" href="https://pharmaverse.github.io/examples/" target="_blank">pharmaverse examples</a>
     <a class="hero-badge" href="https://pharmaverse.org" target="_blank">pharmaverse</a>
   </div>
 </div>
@@ -218,27 +218,31 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>PROC SORT / DATA step merges</td>
-<td><code>dplyr::arrange()</code>, <code>left_join()</code></td>
+<td><code>derive_vars_merged()</code>, <code>derive_vars_joined()</code> in <code>{admiral}</code></td>
 </tr>
 <tr class="even">
-<td>ADaM dataset structures</td>
-<td>Same CDISC specs; <code>{admiral}</code> implements them</td>
+<td>ADaM ADSL population flags</td>
+<td><code>derive_var_extreme_flag()</code>, <code>derive_var_merged_exist_flag()</code></td>
 </tr>
 <tr class="odd">
-<td>Controlled terminology lookups</td>
-<td><code>{metacore}</code>, <code>{metatools}</code></td>
+<td>ADaM analysis visit/timing</td>
+<td><code>derive_vars_dt()</code>, <code>derive_vars_dtm()</code>, <code>derive_var_ady()</code></td>
 </tr>
 <tr class="even">
+<td>Controlled terminology lookups</td>
+<td><code>ct_map()</code> in <code>{admiralvaccine}</code>; <code>{metacore}</code> + <code>{metatools}</code></td>
+</tr>
+<tr class="odd">
 <td>PROC REPORT / PROC TABULATE</td>
 <td><code>{gtsummary}</code>, <code>{rtables}</code>, <code>{tfrmt}</code></td>
 </tr>
-<tr class="odd">
-<td>XPT transport files</td>
-<td><code>{xportr}</code></td>
-</tr>
 <tr class="even">
+<td>XPT transport files</td>
+<td><code>xportr_write()</code>, <code>xportr_label()</code> in <code>{xportr}</code></td>
+</tr>
+<tr class="odd">
 <td>Macro variables / %LET</td>
-<td>R objects and functions</td>
+<td>R objects; <code>{metacore}</code> for spec-driven metadata</td>
 </tr>
 </tbody>
 </table>
