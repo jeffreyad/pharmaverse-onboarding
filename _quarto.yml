@@ -3,9 +3,9 @@ project:
   output-dir: docs
 
 website:
-  title: "Pharmaverse for SAS Programmers"
+  title: "Pharmaverse Onboarding"
   description: "A structured onboarding path into R and open-source clinical data science"
-  favicon: favicon.png
+  favicon: pharmaverse.png
   navbar:
     left:
       - href: index.qmd
