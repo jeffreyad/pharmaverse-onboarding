@@ -2,7 +2,7 @@
 
 A Quarto website for onboarding clinical SAS programmers into R and the pharmaverse open-source ecosystem.
 
-**Live site:** *(add your GitHub Pages URL here after deployment)*
+**Live site:** [*Pharmaverse Onboarding*](https://jeffreyad.github.io/pharmaverse-onboarding/)
 
 ## Contents
 

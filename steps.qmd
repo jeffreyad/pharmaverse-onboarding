@@ -164,13 +164,13 @@ Once you're comfortable with `{admiral}` and `{gtsummary}`, explore the broader 
   <div class="pkg-card">
     <div class="pkg-name">{xportr}</div>
     <div class="pkg-desc">Write CDISC-compliant XPT transport files for regulatory submission. The R replacement for PROC COPY / XPORT.</div>
-    <a href="https://pharmaverse.github.io/xportr/" target="_blank">Documentation →</a>
+    <a href="https://atorus-research.github.io/xportr/" target="_blank">Documentation →</a>
   </div>
 
   <div class="pkg-card">
     <div class="pkg-name">{metacore}</div>
     <div class="pkg-desc">Work with ADaM and SDTM metadata specifications. Ingest specs from Excel, validate, and drive derivations.</div>
-    <a href="https://pharmaverse.github.io/metacore/" target="_blank">Documentation →</a>
+    <a href="https://atorus-research.github.io/metacore/" target="_blank">Documentation →</a>
   </div>
 
   <div class="pkg-card">
