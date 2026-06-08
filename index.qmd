@@ -23,7 +23,7 @@ toc: false
 
 ## Who this is for
 
-This guide is written for experienced clinical SAS programmers who are new to R. You already understand the hard stuff: CDISC standards, ADaM and SDTM structures, clinical trial data, and the regulatory expectations that govern everything we build. 
+This guide is written for experienced clinical SAS programmers who are new to R. You already understand the hard stuff: [CDISC](https://www.cdisc.org) standards, ADaM and SDTM structures, clinical trial data, and the [FDA](https://www.fda.gov) regulatory expectations that govern everything we build.
 
 R is new syntax for familiar concepts. That context compresses the learning curve significantly — more than you might expect.
 
@@ -37,7 +37,7 @@ The goal of this guide is a structured, low-pressure path toward:
 
 ## What is pharmaverse?
 
-[Pharmaverse](https://pharmaverse.org) is a curated ecosystem of open-source R packages purpose-built for clinical reporting and regulatory submission. The packages are developed collaboratively across companies — Roche, GSK, Novartis, AstraZeneca, Pfizer, and many others — and maintained to CDISC standards.
+[Pharmaverse](https://pharmaverse.org) is a curated ecosystem of open-source R packages purpose-built for clinical reporting and regulatory submission. The packages are developed collaboratively across companies — Roche, GSK, Novartis, AstraZeneca, Pfizer, and many others — and maintained to [CDISC](https://www.cdisc.org) standards.
 
 The key insight is that no single company needs to solve the same clinical programming problem alone. Pharmaverse packages handle SDTM-to-ADaM derivation, metadata management, output generation, transport file creation, and more — all interoperable, all openly maintained.
 
@@ -62,7 +62,7 @@ A common misconception is that switching from SAS to R means starting over. It d
 | XPT transport files | `xportr_write()`, `xportr_label()` in `{xportr}` |
 | Macro variables / %LET | R objects; `{metacore}` for spec-driven metadata |
 
-The CDISC logic you already carry — derivation rules, population flags, timing conventions — translates directly. You're learning a new instrument, not a new song.
+The [CDISC](https://www.cdisc.org) logic you already carry — derivation rules, population flags, timing conventions — translates directly. You're learning a new instrument, not a new song.
 
 ---
 
