@@ -144,3 +144,9 @@ You don't need to be a proficient R programmer to contribute. Here's what actual
 The pharmaverse blog has a dedicated post with tips for first-time contributors:  
 [Tips for First-Time Contributors →](https://pharmaverse.github.io/blog/posts/2024-03-11_tips_for__first_/tips_for__first__time__contributors.html)
 :::
+
+::: {.callout-tip}
+## What's next after your first PR?
+
+Once you've got a merged (or even just submitted) hackathon PR behind you, consider [R Consortium Pilot 6](pilot6.qmd) as a next step — real ADaM and TLF submission work in R, at your own pace. It's a bigger commitment than a hackathon (it uses DVC alongside Git, for one), so it's worth reading [Beyond the Hackathons](pilot6.qmd) before diving in.
+:::

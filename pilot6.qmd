@@ -1,0 +1,83 @@
+---
+title: "Beyond the Hackathons: R Consortium Pilot 6"
+meta-description: "A next step after the pharmaverse hackathons — contributing to real ADaM and TLF submissions in R"
+---
+
+# Beyond the Hackathons: R Consortium Pilot 6
+
+A next step after the pharmaverse hackathons — contributing to real ADaM and TLF submissions in R
+
+Once you've got a working R environment, a GitHub account, and maybe a hackathon PR or two under your belt, [R Consortium Pilot 6](https://github.com/RConsortium/submissions-pilot6-adams-tlfs) is a strong next step. It's not a training exercise — it's an active project building out ADaM and TLF programs in R for future regulatory submissions, using the same CDISC standards you already know from SAS.
+
+::: {.callout-note}
+## What Pilot 6 is
+
+Part of the R Consortium's Submissions Working Group, Pilot 6 extends the original CDISC SAP Pilot with more ADaM and TLF programs written in R. The repo is actively maintained, with dozens of open issues covering real, scoped pieces of work.
+:::
+
+This is a bigger commitment than a hackathon, and it's worth knowing that going in.
+
+---
+
+## How this differs from a hackathon
+
+The pharmaverse hackathons are intentionally scoped to a single package, a single 3–4 hour session, and mentors present throughout. Pilot 6 is different in a few ways:
+
+| Hackathons | Pilot 6 |
+|---|---|
+| One package, one event | Ongoing project, work at your own pace |
+| Git + GitHub only | Git **and** DVC (data version control) |
+| Sample data bundled or trivial to get | SDTM/ADaM data pulled from AWS S3 via DVC |
+| Mentors present during a scheduled window | Asynchronous, open-source pace |
+
+The extra piece is **DVC** — a second version-control layer that tracks the actual SDTM/ADaM datasets separately from the R code in Git. It's a great tool once it clicks, but it does mean a second thing to learn on top of Git itself, plus managing temporary AWS credentials that expire and need periodic refreshing.
+
+If you're still building confidence with Git and GitHub, that's completely fine — spend more time in the hackathon series first. Pilot 6 will still be there.
+
+---
+
+## Setting up Pilot 6
+
+At a high level, getting a working copy of the project means:
+
+1. Requesting temporary AWS access keys and a session token through the R Consortium's DVC data portal
+2. Cloning the [Pilot 6 repo](https://github.com/RConsortium/submissions-pilot6-adams-tlfs) and checking out a working branch
+3. Installing `dvc[s3]`
+4. Configuring the DVC remote with your provisioned AWS credentials
+5. Running `dvc pull` to download the actual SDTM/ADaM datasets
+6. Running R programs under `code/adam`
+
+::: {.callout-tip}
+## An easier on-ramp: GitHub Codespaces
+
+If setting up DVC and Python locally is a blocker — especially on a locked-down work laptop — try running the whole workflow in a [GitHub Codespace](https://github.com/features/codespaces) instead. It's a hosted, disposable environment, so there's no local `pip`/Python setup to fight, and if your DVC config or AWS token gets into a bad state, you can just start a fresh Codespace rather than untangling your own machine. Treat it as a training-wheels environment for getting comfortable with the workflow before moving to a persistent setup like Posit Workbench.
+:::
+
+The Pilot 6 team itself works primarily in **Posit Workbench**, so time spent here transfers directly if your organization is also standardizing on Workbench.
+
+---
+
+## Finding an issue to work on
+
+Same advice as the hackathons applies:
+
+- Browse the [open issues](https://github.com/RConsortium/submissions-pilot6-adams-tlfs/issues) before committing to one
+- Look for issues scoped small enough to finish in a reasonable window — not every issue is a good first issue
+- A submitted, honest-effort pull request is a success on its own, whether or not it merges
+- Your SAS and CDISC background is real domain expertise here — lean on it
+
+---
+
+## Is this for you right now?
+
+Pilot 6 is a good fit if:
+
+- You're comfortable with basic Git workflows (branch, commit, push, pull request)
+- You've completed at least one hackathon or equivalent R/GitHub practice
+- You're comfortable troubleshooting a new tool (DVC) with community documentation rather than live mentoring
+
+If any of that doesn't describe you yet, that's useful information — not a wall. Spend more time with the [Getting Started](steps.html) steps and a hackathon or two first, then come back.
+
+Navitas Data Sciences
+
+Built with [Quarto](https://quarto.org)
