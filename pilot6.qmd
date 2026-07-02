@@ -3,8 +3,6 @@ title: "Beyond the Hackathons: R Consortium Pilot 6"
 meta-description: "A next step after the pharmaverse hackathons — contributing to real ADaM and TLF submissions in R"
 ---
 
-# Beyond the Hackathons: R Consortium Pilot 6
-
 A next step after the pharmaverse hackathons — contributing to real ADaM and TLF submissions in R
 
 Once you've got a working R environment, a GitHub account, and maybe a hackathon PR or two under your belt, [R Consortium Pilot 6](https://github.com/RConsortium/submissions-pilot6-adams-tlfs) is a strong next step. It's not a training exercise — it's an active project building out ADaM and TLF programs in R for future regulatory submissions, using the same CDISC standards you already know from SAS.
